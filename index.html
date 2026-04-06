@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garnier Sorbet Vit C</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+      #es-rc #es-garnier.es-garnier {
+        font-family: "Montserrat", sans-serif;
+        color: #000;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      #es-rc #es-garnier.es-garnier * {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+      #es-rc #es-garnier.es-garnier p {
+        margin: 0;
+        padding: 0;
+      }
+      #es-rc #es-garnier.es-garnier sup {
+        font-size: 0.6em;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__logo {
+        width: 40%;
+        padding-left: 2%;
+        padding-top: 1%;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__wrapper {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__left {
+        position: relative;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__table {
+        width: 90%;
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__row {
+        margin-top: -4px;
+        width: 100%;
+        background-color: #fff;
+        border: 4px solid #000;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__title {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__text {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__title1 {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__text1 {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-kv__empty {
+        height: 5px;
+      }
+      #es-rc #es-garnier.es-garnier .es-disc__text {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        padding: 25px;
+        font-size: 10px;
+        text-align: center;
+        color: #000;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__wrapper {
+        position: relative;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__desktop {
+        display: none;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__mobile {
+        display: block;
+        margin-bottom: 25px;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__table {
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__row {
+        margin-top: -3px;
+        width: 100%;
+        border: 3px solid #000;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__text {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__step {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-features__title {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-info {
+        margin: 5px auto;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__wrapper {
+        position: relative;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__desktop {
+        display: none;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__mobile {
+        display: block;
+        margin-bottom: 25px;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__table {
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+        border-collapse: collapse;
+        border: 3px solid #000;
+        background-color: #fff;
+        padding: 5px;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__td--rowspan {
+        border: 3px solid #000;
+        width: 30%;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__td--left {
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        border-left: 3px solid #000;
+        border-right: 0;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__td--right {
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        border-right: 3px solid #000;
+        border-left: 0;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__text {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 10px;
+        font-weight: 700;
+        text-align: left;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__text--center {
+        text-align: center;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__text--normal {
+        text-transform: unset;
+        font-size: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__text1 {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        color: #000;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px;
+        text-align: center;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__title {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__btn {
+        display: inline-block;
+        padding: 12px 12px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #1a2e26;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__btn--mint {
+        background-color: #61D7C6;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__btn--yellow {
+        background-color: #FEE76C;
+      }
+      #es-rc #es-garnier.es-garnier .es-info__btn--blue {
+        background-color: #42B9DF;
+      }
+      #es-rc #es-garnier.es-garnier .es-ingr {
+        position: relative;
+        margin: 25px auto 25px;
+        padding: 10px 6%;
+      }
+      #es-rc #es-garnier.es-garnier .es-ingr__img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+      }
+      #es-rc #es-garnier.es-garnier .es-ingr__texts {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-wrap: nowrap;
+        background-color: #fff;
+        border: 3px solid #000;
+      }
+      #es-rc #es-garnier.es-garnier .es-ingr__percent {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 2px 5px;
+      }
+      #es-rc #es-garnier.es-garnier .es-ingr__text {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 8px;
+        border-left: 3px solid #000;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross {
+        margin: 5px auto 0;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__wrapper {
+        padding: 25px 10px;
+        background: #FDE26F;
+        background: linear-gradient(2deg, rgb(253, 226, 111) 0%, rgb(255, 252, 202) 50%, rgb(237, 221, 83) 100%);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 25px 5px;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        width: 90%;
+        transition: 0.3s all;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__product {
+        max-width: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__product:hover .es-cross__img {
+        transform: scale(1.1);
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__name {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        color: #0F322A;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding: 25px 10px;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__btn {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        width: 90%;
+        padding: 7px 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #11622C;
+        border: 1px solid #11622C;
+        transition: 0.3s all;
+      }
+      #es-rc #es-garnier.es-garnier .es-cross__btn:hover {
+        background-color: #fff;
+        color: #11622C;
+      }
+      #es-rc #es-garnier.es-garnier .es-footer__wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      #es-rc #es-garnier.es-garnier .es-footer__text {
+        font-size: 11px;
+        color: #000;
+        padding: 30px 10px;
+        width: 100%;
+        line-height: 1.5;
+        text-align: center;
+      }
+      #es-rc #es-garnier.es-garnier .es-footer__logoCtn {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        width: 300px;
+        padding: 20px;
+      }
+      #es-rc #es-garnier.es-garnier .es-footer__signs {
+        background: rgb(18, 88, 40);
+        background: linear-gradient(90deg, rgb(18, 88, 40) 0%, rgb(19, 111, 50) 20%, rgb(19, 116, 52) 50%, rgb(19, 112, 51) 80%, rgb(18, 91, 41) 100%);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 32px;
+        padding: 32px;
+      }
+      #es-rc #es-garnier.es-garnier .es-footer__img {
+        max-width: 200px;
+      }
+      @media (min-width: 450px) {
+        #es-rc #es-garnier.es-garnier .es-info__text {
+          font-size: 12px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__percent {
+          font-size: 28px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__text {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: 600px) {
+        #es-rc #es-garnier.es-garnier .es-kv__logo {
+          width: 20%;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__wrapper {
+          flex-wrap: nowrap;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__title {
+          font-size: 18px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text {
+          font-size: 10px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__title1 {
+          font-size: 18px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text1 {
+          font-size: 10px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__mobile {
+          display: none;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__desktop {
+          display: block;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__table {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 3%;
+          width: 40%;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__text {
+          font-size: 12px;
+          padding: 5px;
+          text-align: left;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__step {
+          font-size: 10px;
+          padding: 5px;
+          text-align: left;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__title {
+          font-size: 14px;
+          padding: 5px;
+          text-align: left;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__mobile {
+          display: none;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__desktop {
+          display: block;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__table {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 3%;
+          width: 60%;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text {
+          font-size: 12px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__title {
+          font-size: 16px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__btn {
+          font-size: 14px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__percent {
+          font-size: 32px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__text {
+          font-size: 22px;
+        }
+        #es-rc #es-garnier.es-garnier .es-cross__wrapper {
+          background: none;
+          flex-wrap: nowrap;
+        }
+        #es-rc #es-garnier.es-garnier .es-cross__product {
+          width: 25%;
+        }
+        #es-rc #es-garnier.es-garnier .es-cross__name {
+          font-size: 15px;
+        }
+      }
+      @media (min-width: 768px) {
+        #es-rc #es-garnier.es-garnier .es-kv__title {
+          font-size: 20px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text {
+          font-size: 14px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__title1 {
+          font-size: 20px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text1 {
+          font-size: 14px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__table {
+          width: 35%;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__text {
+          font-size: 14px;
+          padding: 8px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__step {
+          font-size: 12px;
+          padding: 8px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__title {
+          font-size: 16px;
+          padding: 8px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__table {
+          width: 55%;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text {
+          font-size: 14px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text1 {
+          font-size: 11px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__title {
+          font-size: 20px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__percent {
+          font-size: 42px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__text {
+          font-size: 32px;
+        }
+        #es-rc #es-garnier.es-garnier .es-cross__name {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: 900px) {
+        #es-rc #es-garnier.es-garnier .es-kv__title {
+          font-size: 28px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text {
+          font-size: 20px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__title1 {
+          font-size: 28px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text1 {
+          font-size: 20px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__text {
+          font-size: 16px;
+          padding: 12px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__step {
+          font-size: 14px;
+          padding: 12px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__title {
+          font-size: 20px;
+          padding: 12px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__table {
+          width: 60%;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__td--left {
+          height: 90px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text {
+          font-size: 18px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text1 {
+          font-size: 15px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__title {
+          font-size: 28px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__btn {
+          padding: 12px 24px;
+          font-size: 17px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__percent {
+          font-size: 50px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__text {
+          font-size: 40px;
+        }
+      }
+      @media (min-width: 1300px) {
+        #es-rc #es-garnier.es-garnier .es-kv__title {
+          font-size: 42px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text {
+          font-size: 27px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__text {
+          font-size: 24px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__title {
+          font-size: 42px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text1 {
+          font-size: 20px;
+        }
+        #es-rc #es-garnier.es-garnier .es-info__text {
+          font-size: 24px;
+        }
+        #es-rc #es-garnier.es-garnier .es-ingr__text {
+          font-size: 45px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__title {
+          font-size: 32px;
+        }
+        #es-rc #es-garnier.es-garnier .es-features__step {
+          font-size: 18px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__title1 {
+          font-size: 42px;
+        }
+        #es-rc #es-garnier.es-garnier .es-kv__text1 {
+          font-size: 23px;
+        }
+        #es-rc #es-garnier.es-garnier .es-cross__product {
+          max-width: 250px;
+        }
+        #es-rc #es-garnier.es-garnier .es-cross__name {
+          font-size: 25px;
+        }
+      }
+    </style>
+</head>
+
+  <body>
+    <div id="es-rc">
+      <div id="es-garnier"
+           class="es-garnier">
+        <div class="es-kv">
+          <img src="./images/logo-garnier.png"
+               alt=""
+               class="es-kv__logo">
+          <div class="es-kv__wrapper">
+            <div class="es-kv__left">
+              <img src="./images/kv-photo-left.png"
+                   alt=""
+                   class="es-kv__img">
+              <div class="es-kv__table">
+                <div class="es-kv__row">
+                  <p class="es-kv__title">24H NAWILŻENIA*</p>
+                </div>
+                <div class="es-kv__row">
+                  <p class="es-kv__text">Rozświetla skórę i&nbsp;redukuje widoczność przebarwień o&nbsp;47%**</p>
+                </div>
+              </div>
+            </div>
+            <div class="es-kv__right">
+              <img src="./images/kv-photo-right.png"
+                   alt=""
+                   class="es-kv__img">
+            </div>
+          </div>
+        </div>
+
+        <div class="es-disc">
+          <p class="es-disc__text">*Test instrumentalny<br>**intensywność przebarwień, badanie kliniczne, 51
+            ochotników.<br></p>
+        </div>
+
+        <div class="es-features">
+          <div class="es-features__wrapper">
+            <img src="./images/features-desktop.png"
+                 alt=""
+                 class="es-features__img es-features__desktop">
+            <img src="./images/features-mobile.png"
+                 alt=""
+                 class="es-features__img es-features__mobile">
+            <div class="es-features__table">
+              <div class="es-features__row">
+                <p class="es-features__text">Zapewewnia 24-godzinne nawilżenie**</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__text">Redukuje widoczność przebarwień o&nbsp;47%&nbsp;w&nbsp;ciągu tygodnia*</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__text">Rozświetla skórę</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__text">Ultralekka i&nbsp;odświeżająca formuła</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__text">Błyskawicznie się wchłania</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="es-disc">
+          <p class="es-disc__text">*Test instrumentalny<br>**intensywność przebarwień, badanie kliniczne, 51
+            ochotników.<br></p>
+        </div>
+
+        <div class="es-info">
+          <div class="es-info__wrapper">
+            <img src="./images/info-desktop.png"
+                 alt=""
+                 class="es-info__img es-info__desktop">
+            <img src="./images/info-mobile.png"
+                 alt=""
+                 class="es-info__img es-info__mobile">
+            <table class="es-info__table">
+              <thead>
+                <tr>
+                  <th colspan="3">
+                    <p class="es-info__title">Nowa generacja nawilżenia</p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="3"
+                      class="es-info__td--rowspan">
+                    <p class="es-info__text1">Nielepka i&nbsp;nietłusta formuła stworzona dla Twoich potrzeb</p>
+                  </td>
+                  <td class="es-info__td--left">
+                    <p class="es-info__text">Wygładza i&nbsp;redukuje niedoskonałości</p>
+                  </td>
+                  <td class="es-info__td--right"><a href="#"
+                       class="es-info__btn es-info__btn--mint">Sprawdź</a></td>
+                </tr>
+                <tr>
+                  <td class="es-info__td--left">
+                    <p class="es-info__text">Rozświetla skórę</p>
+                  </td>
+                  <td class="es-info__td--right"><a href="#"
+                       class="es-info__btn es-info__btn--yellow">Sprawdź</a></td>
+                </tr>
+                <tr>
+                  <td class="es-info__td--left">
+                    <p class="es-info__text">Poprawia jędrność skóry i&nbsp;wygładza</p>
+                  </td>
+                  <td class="es-info__td--right"><a href="#"
+                       class="es-info__btn es-info__btn--blue">Sprawdź</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="es-ingr">
+          <img src="./images/ingr.png"
+               alt=""
+               class="es-ingr__img">
+          <div class="es-ingr__texts">
+            <p class="es-ingr__percent">4%</p>
+            <p class="es-ingr__text">NIACYNAMID+WITAMINA&nbsp;C</p>
+          </div>
+        </div>
+
+        <div class="es-features">
+          <div class="es-features__wrapper">
+            <img src="./images/features1-desktop.png"
+                 alt=""
+                 class="es-features__img es-features__desktop">
+            <img src="./images/features1-mobile.png"
+                 alt=""
+                 class="es-features__img es-features__mobile">
+            <div class="es-features__table">
+              <div class="es-features__row">
+                <p class="es-features__title">TWOJA<br>ROZŚWIETLAJĄCA<br>RUTYNA</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__text">KROK 1: SERUM</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__step">Redukuje przebarwienia i&nbsp;wyrównuje koloryt skóry</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__text">KROK 2: KREM VITAMIN&nbsp;C</p>
+              </div>
+              <div class="es-features__row">
+                <p class="es-features__step">Rozświetla i nawilża</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="es-kv">
+          <div class="es-kv__empty"></div>
+          <div class="es-kv__wrapper">
+            <div class="es-kv__left">
+              <img src="./images/kv1-photo-left.png"
+                   alt=""
+                   class="es-kv__img">
+              <div class="es-kv__table">
+                <div class="es-kv__row">
+                  <p class="es-kv__title1">JAK STOSOWAĆ?</p>
+                </div>
+                <div class="es-kv__row">
+                  <p class="es-kv__text1">Po użyciu serum, nałóż krem na oczyszczoną skórę twarzy. Rozprowadź
+                    równomiernie okrężnymi ruchami.</p>
+                </div>
+              </div>
+            </div>
+            <div class="es-kv__right">
+              <img src="./images/kv1-photo-right.png"
+                   alt=""
+                   class="es-kv__img">
+            </div>
+          </div>
+        </div>
+
+        <div class="es-cross"
+             style="background-image: url('./images/cross-bg.png'); background-size: cover;">
+          <div class="es-cross__wrapper">
+            <div class="es-cross__product">
+              <img src="./images/cross-4.png"
+                   alt=""
+                   class="es-cross__img">
+              <p class="es-cross__name">Płyn<br>micelarny</p>
+              <a href="#"
+                 class="es-cross__btn">sprawdź</a>
+            </div>
+            <div class="es-cross__product">
+              <img src="./images/cross-2.png"
+                   alt=""
+                   class="es-cross__img">
+              <p class="es-cross__name">Serum<br>na&nbsp;dzień</p>
+              <a href="#"
+                 class="es-cross__btn">sprawdź</a>
+            </div>
+            <div class="es-cross__product">
+              <img src="./images/cross-1.png"
+                   alt=""
+                   class="es-cross__img">
+              <p class="es-cross__name">Wonder&nbsp;Tint<br>SPF 50+</p>
+              <a href="#"
+                 class="es-cross__btn">sprawdź</a>
+            </div>
+            <div class="es-cross__product">
+              <img src="./images/cross-3.png"
+                   alt=""
+                   class="es-cross__img">
+              <p class="es-cross__name">Serum<br>na noc</p>
+              <a href="#"
+                 class="es-cross__btn">sprawdź</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="es-footer">
+          <div class="es-footer__signs">
+            <img src="./images/cruelty_free.png"
+                 alt="Nie testowano na zwierzętach"
+                 class="es-footer__img">
+            <img src="./images/vegan.png"
+                 alt="Wegańska formuła"
+                 class="es-footer__img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
